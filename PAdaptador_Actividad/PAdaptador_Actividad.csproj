@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{36150552-BEF6-43C6-ACB9-F3263C5B8135}</ProjectGuid>
+    <ProjectGuid>{A2E36207-A08B-496D-B105-069129FCDE5E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PAdaptador</RootNamespace>
-    <AssemblyName>PAdaptador</AssemblyName>
+    <RootNamespace>PAdaptador_Actividad</RootNamespace>
+    <AssemblyName>PAdaptador_Actividad</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CAdaptador.cs" />
-    <Compile Include="CCalcu.cs" />
-    <Compile Include="CCalculadoraArray.cs" />
     <Compile Include="ITarget.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
